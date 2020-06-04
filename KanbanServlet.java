@@ -40,8 +40,8 @@ public class KanbanServlet extends HttpServlet {
 		//List to store in progress's
 		ArrayList<Kanban> progress = new ArrayList<Kanban>();
 			//pre populate with some in progresses
-			progress.add(new Kanban("Study for Midterm","study for upcoming ee midterm"));
-			progress.add(new Kanban("Finish Metro","finish the main campaign until end of week"));
+			// progress.add(new Kanban("Study for Midterm","study for upcoming ee midterm"));
+			// progress.add(new Kanban("Finish Metro","finish the main campaign until end of week"));
 			
 			//Add these into the servlet context
 			context.setAttribute("progress", progress);
@@ -49,8 +49,8 @@ public class KanbanServlet extends HttpServlet {
 		//List to store in completed's
 		ArrayList<Kanban> completed = new ArrayList<Kanban>();
 			//pre populate with some completed
-			completed.add(new Kanban("Go to gym","go work out for an hour tonight"));
-			completed.add(new Kanban("Surgery","go to the surgery on friday the 1st"));
+			// completed.add(new Kanban("Go to gym","go work out for an hour tonight"));
+			// completed.add(new Kanban("Surgery","go to the surgery on friday the 1st"));
 			
 				//Add these into the servlet context
 				context.setAttribute("completed", completed);
